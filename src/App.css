@@ -1,5 +1,11 @@
 .App {
-  text-align: center;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+* {
+  font-family: "Asap Condensed", sans-serif;
+  background-color: #f4a442;
 }
 
 .App-logo {
@@ -35,4 +41,10 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+lottie-player {
+  width: 800px;
+  margin: 0 auto;
+  margin-top: 25vh;
 }
